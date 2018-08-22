@@ -1,0 +1,256 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"authorization"
+			],
+			[
+				"user",
+				"userStored"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"S",
+				"SongSchema"
+			],
+			[
+				"Al",
+				"AlbumSchema"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 395,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/urbit-lenovo_03/Escritorio/dashboard",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/models"
+	],
+	"file_history":
+	[
+		"/home/urbit-lenovo_03/Escritorio/dashboard/controllers/user.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/models/user.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/routes/user.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/index.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/app.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/middlewares/authenticated.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/controllers/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/routes/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/services/jwt.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/package.json",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/user.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/package.json",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/package-lock.json",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/artist.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/album.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/node_modules/bson/browser_build/bson.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/index.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/app.js",
+		"/home/urbit-lenovo_03/Escritorio/Old Firefox Data/proy_musify/index.js",
+		"/home/urbit-lenovo_03/Escritorio/Old Firefox Data/proy_musify/models/song.js",
+		"/home/urbit-lenovo_03/Escritorio/Old Firefox Data/proy_musify/models/user.js",
+		"/home/urbit-lenovo_03/Escritorio/Old Firefox Data/proy_musify/models/album.js",
+		"/home/urbit-lenovo_03/Escritorio/Old Firefox Data/proy_musify/app.js",
+		"/home/urbit-lenovo_03/Escritorio/Old Firefox Data/proy_musify/models/artist.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/user"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dashboard.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
