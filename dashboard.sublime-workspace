@@ -4,12 +4,88 @@
 		"selected_items":
 		[
 			[
-				"a",
-				"authorization"
+				"User",
+				"UserUpdated"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"path",
+				"path_file"
+			],
+			[
+				"find",
+				"findByIdAndUpdate"
+			],
+			[
+				"func",
+				"function\tkeyword"
+			],
+			[
+				"gl",
+				"GLOBAL\talias"
+			],
+			[
+				"stri",
+				"string\tkeyword"
+			],
+			[
+				"g",
+				"global\tscript"
+			],
+			[
+				"s",
+				"status\tproperty"
+			],
+			[
+				"file",
+				"filesToUpload\tproperty"
+			],
+			[
+				"ex",
+				"export\tkeyword"
+			],
+			[
+				"cons",
+				"const\tkeyword"
+			],
+			[
+				"Us",
+				"User\talias"
+			],
+			[
+				"string",
+				"String\tconst"
+			],
+			[
+				"USer",
+				"UserService\talias"
+			],
+			[
+				"temp",
+				"templateUrl\tproperty"
 			],
 			[
 				"user",
-				"userStored"
+				"user_register\tproperty"
+			],
+			[
+				"col",
+				"col-lg-1"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"a",
+				"authorization"
 			],
 			[
 				"pa",
@@ -31,15 +107,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.js",
-			"settings":
-			{
-				"buffer_size": 395,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -52,6 +119,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 0.0
 	},
@@ -73,23 +144,43 @@
 	},
 	"expanded_folders":
 	[
-		"/home/urbit-lenovo_03/Escritorio/dashboard",
-		"/home/urbit-lenovo_03/Escritorio/dashboard/models"
 	],
 	"file_history":
 	[
-		"/home/urbit-lenovo_03/Escritorio/dashboard/controllers/user.js",
-		"/home/urbit-lenovo_03/Escritorio/dashboard/models/user.js",
-		"/home/urbit-lenovo_03/Escritorio/dashboard/routes/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/proy_musify.sublime-project",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/app.component.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/views/user-edit.html",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/api/controllers/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/services/user.services.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/app.component.html",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/components/user-edit.components.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/api/routes/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/api/services/jwt.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/api/middlewares/authenticated.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/app.routing.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/app.module.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/app.component.spec.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/api/index.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/api/app.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/services/global.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/index.html",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/assets/css/styles.css",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/models/user.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/models/song.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/models/album.ts",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/models/artist.ts",
 		"/home/urbit-lenovo_03/Escritorio/dashboard/index.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/controllers/user.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/routes/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/routes/user.js",
+		"/home/urbit-lenovo_03/Escritorio/proy_musify/controllers/user.js",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/package.json",
+		"/home/urbit-lenovo_03/Escritorio/dashboard/models/user.js",
 		"/home/urbit-lenovo_03/Escritorio/dashboard/app.js",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/middlewares/authenticated.js",
-		"/home/urbit-lenovo_03/Escritorio/proy_musify/controllers/user.js",
-		"/home/urbit-lenovo_03/Escritorio/proy_musify/routes/user.js",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/services/jwt.js",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/package.json",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/user.js",
-		"/home/urbit-lenovo_03/Escritorio/dashboard/package.json",
 		"/home/urbit-lenovo_03/Escritorio/dashboard/package-lock.json",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/artist.js",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/models/album.js",
@@ -106,11 +197,11 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 98.0,
 		"where_history":
 		[
 		]
@@ -120,6 +211,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onInit"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -137,43 +229,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 395,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -202,6 +265,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -210,7 +277,7 @@
 	"project": "dashboard.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -248,7 +315,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 258.0,
+	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

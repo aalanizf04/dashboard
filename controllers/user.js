@@ -3,17 +3,18 @@
 var User = require('../models/user'); 
 var bcrypt= require('bcrypt-nodejs'); 
 var moment = require('moment');
+var mongoosePaginate= require('mongoose-pagination');
 
 function saveUser(req, res){
 	var user= new User();
 	var params= req.body;
 	console.log(params);
 
-	user.username = params.username;
-	user.salt= '';
-	user.is_superuser= false;
-	user.created= moment();
-
+	//validar params
+	user.name = params.name;
+	user.username= params.username;
+	user.email=params.email;
+	user.phone=params.phone;
 
 	if(params.password){
 		bcrypt.hash(params.password,null,null,function(err,hash){
@@ -69,7 +70,27 @@ function loginUser(req,res){
 	})
 }
 
+function getUsers(req,res){
+	var page= req.params.page;
+	var itemsPerPage=5;
+
+	User.find().sort('name').paginate(page,itemsPerPage, function(err,users,total){
+		if(err){
+			res.status(500).send({message: 'Error en la peticion'});
+		}else{
+			if(!users){
+				res.status(404).send({message: 'No hay usuarios'});
+			}else{
+				return res.status(200).send({
+					total_items: total,
+					users: users});
+			}
+		}
+	});
+}
+
 module.exports = {
 	saveUser,
 	loginUser,
+	getUsers
 };
