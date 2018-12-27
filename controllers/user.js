@@ -95,11 +95,6 @@ function deleteUser(req,res){
 	
 }
 
-function loadMyModules(req,res){
-	var id = req.params.id;
-
-	//Umod.findOne({})
-}
 
 module.exports = {
 	saveUser,

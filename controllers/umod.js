@@ -16,14 +16,17 @@ function newUModule(req,res){
 
 	//falta validacion de alias (unico?) e implementacion de la gatestatus, level y state desde peticion.
 	umodule.alias = params.alias;
-	umodule.location = params.location;
-	umodule.gatestatus = 1;
+	umodule.location.lat = params.lat;
+	umodule.location.lon = params.lon;
+	umodule.gatestatus = params.gatestatus;
 	umodule.state = 2;
 	umodule.lastAccess = 'null';
 	umodule.permission.push(params.idupermission);			//guarda en la posicion 0 del array de permisos(usuario y nivel de permiso) del modulo
 
+	//console.log(umodule);
 	umodule.save((err,umoduleStored) =>{
 		if(err){
+			//console.log(err);
 			res.status(500).send({message: 'Error al guardar el modulo'});
 		}else{
 			if(!umoduleStored){
