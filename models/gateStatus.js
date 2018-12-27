@@ -1,0 +1,5 @@
+const GATE_STATUS={
+	CLOSED: 1,
+	OPENED: 2,
+	OPENING: 3
+}

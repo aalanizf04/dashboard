@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"find",
+				"findOne"
+			],
+			[
+				"id",
+				"idToFind"
+			],
+			[
+				"uper",
+				"upermId"
+			],
+			[
+				"umod",
+				"umodId"
+			],
+			[
+				"CON",
+				"console"
+			],
+			[
+				"new",
+				"newPermission"
+			],
+			[
 				"User",
 				"UserUpdated"
 			],
@@ -14,10 +38,6 @@
 			[
 				"path",
 				"path_file"
-			],
-			[
-				"find",
-				"findByIdAndUpdate"
 			],
 			[
 				"func",
@@ -107,6 +127,59 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "controllers/user.js",
+			"settings":
+			{
+				"buffer_size": 2528,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/umod.js",
+			"settings":
+			{
+				"buffer_size": 2958,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/upermission.js",
+			"settings":
+			{
+				"buffer_size": 2057,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/umod.js",
+			"settings":
+			{
+				"buffer_size": 476,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/upermission.js",
+			"settings":
+			{
+				"buffer_size": 304,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/user.js",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -144,9 +217,23 @@
 	},
 	"expanded_folders":
 	[
+		"/home/alvaro/Escritorio/dashboard-master",
+		"/home/alvaro/Escritorio/dashboard-master/controllers",
+		"/home/alvaro/Escritorio/dashboard-master/models",
+		"/home/alvaro/Escritorio/dashboard-master/routes",
+		"/home/alvaro/Escritorio/dashboard-master/services"
 	],
 	"file_history":
 	[
+		"/home/alvaro/Escritorio/dashboard-master/routes/umod.js",
+		"/home/alvaro/Escritorio/dashboard-master/routes/upermission.js",
+		"/home/alvaro/Escritorio/dashboard-master/models/umod.js",
+		"/home/alvaro/Escritorio/dashboard-master/models/upermission.js",
+		"/home/alvaro/Escritorio/dashboard-master/controllers/upermission.js",
+		"/home/alvaro/Escritorio/dashboard-master/controllers/user.js",
+		"/home/alvaro/Escritorio/dashboard-master/models/level.js",
+		"/home/alvaro/Escritorio/dashboard-master/controllers/umod.js",
+		"/home/alvaro/Escritorio/dashboard-master/app.js",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/proy_musify.sublime-project",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/app.component.ts",
 		"/home/urbit-lenovo_03/Escritorio/proy_musify/cliente/musify/src/app/views/user-edit.html",
@@ -229,8 +316,181 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "controllers/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2441,
+								2441
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1066.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "controllers/umod.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1801,
+								1801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "controllers/upermission.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "models/umod.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "models/upermission.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "models/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -315,7 +575,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 234.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
