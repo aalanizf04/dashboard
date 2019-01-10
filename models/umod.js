@@ -15,10 +15,12 @@ var UmodSchema = Schema({
 		lon:String
 	},
 	lastAccess: String,
-	permission: [{
-		type: Schema.ObjectId,
-		ref: 'UPermission'
-	}],
 });
+
+UmodSchema.virtual('permissions', {
+	ref: 'UPermission',
+	localField: '_id',
+	foreignField: 'umod'
+})
 
 module.exports = mongoose.model('UMod',UmodSchema);

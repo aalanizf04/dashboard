@@ -9,6 +9,10 @@ var UPermissionSchema = Schema({
 		type: Schema.ObjectId,
 		ref: 'User'
 	},
+	umod: {
+		type: Schema.ObjectId,
+		ref : 'UMod'
+	},
 	level: level_permission
 });
 
